@@ -49,8 +49,6 @@ namespace CohortAnalysisChart
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
 
-
-            var aaa = DataGridGrid.ColumnDefinitions.Count();
             DataGridGrid.ColumnDefinitions[0].Width = new GridLength(0, GridUnitType.Pixel);
             DataGridGrid.ColumnDefinitions[1].Width = new GridLength(0, GridUnitType.Pixel);
             DataGridGrid.ColumnDefinitions[2].Width = new GridLength(1, GridUnitType.Star);
