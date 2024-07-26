@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CohortAnalysisChart", "CohortAnalysisChart\CohortAnalysisChart.csproj", "{A86232B9-99C0-4261-9831-2AE8E65A123E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86232B9-99C0-4261-9831-2AE8E65A123E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86232B9-99C0-4261-9831-2AE8E65A123E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86232B9-99C0-4261-9831-2AE8E65A123E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86232B9-99C0-4261-9831-2AE8E65A123E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B26718D0-8BF5-46CA-BC74-475FD879DBFB}
+	EndGlobalSection
+EndGlobal
