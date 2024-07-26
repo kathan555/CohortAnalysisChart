@@ -456,29 +456,8 @@
 
         <Grid Grid.Row="3" x:Name="DataGridGrid">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition />
-                <ColumnDefinition />
-            </Grid.ColumnDefinitions>
-
-            <DataGrid Name = "dataGrid" 
-                      Grid.Column="0" >
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header = "Name" Width="*"/>
-                    <DataGridTextColumn Header = "Title"  Width="*"/>
-                    <DataGridCheckBoxColumn Header = "ReElected?" Width="*"/>
-                    <DataGridComboBoxColumn Header = "Party" Width="*"/>
-                </DataGrid.Columns>
-
-            </DataGrid>
-
-            <DataGrid Grid.Column="2" >
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header = "Column1" Width="*"/>
-                    <DataGridTextColumn Header = "Column2"  Width="*"/>
-                    <DataGridCheckBoxColumn Header = "Column3" Width="*"/>
-                </DataGrid.Columns>
-            </DataGrid>
+                <ColumnDefinition />               
+            </Grid.ColumnDefinitions>           
         </Grid>
     </Grid>
 
