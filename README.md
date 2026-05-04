@@ -43,6 +43,7 @@ A modern, interactive **Cohort Analysis Chart** built with **WPF (.NET 8)** feat
    
 ## 📁 Project Structure
 
+ ```
 CohortAnalysisChart/
 ├── CohortAnalysisChart/          # Main WPF Project
 │   ├── MainWindow.xaml           # Main UI layout
@@ -52,3 +53,4 @@ CohortAnalysisChart/
 │   ├── Styles.xaml               # Custom styles & effects
 │   ├── Enum.cs                   # Cell type definitions
 │   └── ...
+ ```
